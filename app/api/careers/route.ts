@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer'
 export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData()
-    
+     
     const name = formData.get('name') as string
     const email = formData.get('email') as string
     const phone = formData.get('phone') as string
