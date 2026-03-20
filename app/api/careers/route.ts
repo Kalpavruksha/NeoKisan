@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 export async function POST(request: NextRequest) {
   try {
-    const formData = await request.formData()
+    const formData = await request.formData() 
      
     const name = formData.get('name') as string
     const email = formData.get('email') as string
