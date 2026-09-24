@@ -1,7 +1,7 @@
 # Neokisan Innovations Website
  
 Professional website for Neokisan Innovations Pvt Ltd - An agri-technology company focused on smart pruning solutions.
-
+ 
 ## Tech Stack
 
 - Next.js 14 (App Router)
